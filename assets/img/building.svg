@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <title>building</title>
+  <circle cx="300.52" cy="300.53" r="286.32" style="fill: #fff"/>
+  <g>
+    <rect x="159.85" y="377.98" width="282.89" height="76.16" style="fill: #3b5669"/>
+    <rect x="197.93" y="149.49" width="206.73" height="228.49" style="fill: #474849"/>
+    <rect x="159.85" y="377.98" width="282.89" height="10.88" style="fill: #657b8b"/>
+    <rect x="159.85" y="377.98" width="282.89" height="76.16" style="fill: #474849"/>
+    <rect x="230.57" y="127.73" width="141.44" height="21.76" style="fill: #474849"/>
+    <rect x="268.65" y="388.86" width="65.28" height="65.28" style="fill: #6b6c6c"/>
+    <rect x="159.85" y="377.98" width="282.89" height="10.88" style="fill: #6b6c6c"/>
+    <rect x="274.09" y="116.85" width="54.4" height="10.88" style="fill: #474849"/>
+    <rect x="295.85" y="105.97" width="10.88" height="10.88" style="fill: #474849"/>
+    <rect x="170.73" y="399.74" width="38.08" height="43.52" style="fill: #00b6e1"/>
+    <rect x="219.69" y="399.74" width="38.08" height="43.52" style="fill: #00b6e1"/>
+    <rect x="279.53" y="410.62" width="43.52" height="43.52" style="fill: #474849"/>
+    <path d="M323.05,410.62a21.76,21.76,0,1,0-43.52,0Z" style="fill: #474849"/>
+    <rect x="208.81" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="241.45" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="274.09" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="306.73" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="339.37" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="372.01" y="160.37" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="208.81" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="241.45" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="274.09" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="306.73" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="339.37" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="372.01" y="214.77" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="208.81" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="241.45" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="274.09" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="306.73" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="339.37" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="372.01" y="269.17" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="208.81" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="241.45" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="274.09" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="306.73" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="339.37" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <rect x="372.01" y="323.57" width="21.76" height="43.52" style="fill: #6b6c6c"/>
+    <g style="opacity: 0.15000000596046448">
+      <polygon points="332.84 149.49 196.84 149.49 196.84 377.98 267.56 377.98 332.84 149.49" style="fill: #ecf0f2"/>
+    </g>
+    <rect x="170.73" y="399.74" width="38.08" height="10.88" style="fill: #348793"/>
+    <rect x="219.69" y="399.74" width="38.08" height="10.88" style="fill: #348793"/>
+    <rect x="344.81" y="399.74" width="38.08" height="43.52" style="fill: #00b6e1"/>
+    <rect x="393.77" y="399.74" width="38.08" height="43.52" style="fill: #00b6e1"/>
+    <rect x="344.81" y="399.74" width="38.08" height="10.88" style="fill: #348793"/>
+    <rect x="393.77" y="399.74" width="38.08" height="10.88" style="fill: #348793"/>
+  </g>
+</svg>

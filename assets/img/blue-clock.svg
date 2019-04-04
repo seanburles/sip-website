@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>blue-clock</title>
+  <circle cx="256" cy="259" r="239" style="fill: #1eb7e0"/>
+  <g>
+    <circle cx="254" cy="259" r="154" style="fill: #5c5d5e"/>
+    <circle cx="254" cy="259" r="132" style="fill: #ebf0f2"/>
+    <path d="M254,264.5a5.51,5.51,0,0,1-3.89-1.61l-41.25-41.25a5.5,5.5,0,0,1,7.78-7.78l41.25,41.25A5.5,5.5,0,0,1,254,264.5Z" style="fill: #464748"/>
+    <path d="M298,264.5H254a5.5,5.5,0,0,1,0-11h44a5.5,5.5,0,0,1,0,11Z" style="fill: #464748"/>
+    <rect x="199" y="341.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="298" y="341.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="248.5" y="358" width="11" height="11" style="fill: #464748"/>
+    <rect x="160.5" y="303" width="11" height="11" style="fill: #464748"/>
+    <rect x="144" y="253.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="160.5" y="204" width="11" height="11" style="fill: #464748"/>
+    <rect x="199" y="165.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="248.5" y="149" width="11" height="11" style="fill: #464748"/>
+    <rect x="298" y="165.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="336.5" y="204" width="11" height="11" style="fill: #464748"/>
+    <rect x="353" y="253.5" width="11" height="11" style="fill: #464748"/>
+    <rect x="336.5" y="303" width="11" height="11" style="fill: #464748"/>
+  </g>
+</svg>

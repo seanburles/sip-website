@@ -1,0 +1,174 @@
+// Globals and Mixins
+    .t1 {transition-delay: .25s!important;}
+    .t2 {transition-delay: .5s!important;}
+    .t3 {transition-delay: .75s!important;}
+    .t4 {transition-delay: 1s!important;}
+    .t5 {transition-delay: 1.25s!important;}
+    .t6 {transition-delay: 1.5s!important;}
+    .t7 {transition-delay: 1.75s!important;}
+    .t8 {transition-delay: 2s!important;}
+    .t9 {transition-delay: 2.25s!important;}
+    .t10 {transition-delay: 2.5s!important;}
+    .t11 {transition-delay: 2.75s!important;}
+    .t12 {transition-delay: 3s!important;}
+    .t13 {transition-delay: 3.25s!important;}
+    .t14 {transition-delay: 3.5s!important;}
+    .t15 {transition-delay: 3.75s!important;}
+    .t16 {transition-delay: 4s!important;}
+    .t17 {transition-delay: 4.25s!important;}
+    .t18 {transition-delay: 4.5s!important;}
+    .t19 {transition-delay: 4.75s!important;}
+    .t20 {transition-delay: 5s!important;}
+
+
+    .d1 {animation-delay: .25s!important;}
+    .d2 {animation-delay: .5s!important;}
+    .d3 {animation-delay: .75s!important;}
+    .d4 {animation-delay: 1s!important;}
+    .d5 {animation-delay: 1.25s!important;}
+    .d6 {animation-delay: 1.5s!important;}
+    .d7 {animation-delay: 1.75s!important;}
+    .d8 {animation-delay: 2s!important;}
+    .d9 {animation-delay: 2.25s!important;}
+    .d10 {animation-delay: 2.5s!important;}
+    .d11 {animation-delay: 2.75s!important;}
+    .d12 {animation-delay: 3s!important;}
+    .d13 {animation-delay: 3.25s!important;}
+    .d14 {animation-delay: 3.5s!important;}
+    .d15 {animation-delay: 3.75s!important;}
+    .d16 {animation-delay: 4s!important;}
+    .d17 {animation-delay: 4.25s!important;}
+    .d18 {animation-delay: 4.5s!important;}
+    .d19 {animation-delay: 4.75s!important;}
+    .d20 {animation-delay: 5s!important;}
+
+
+
+ .hide-big {
+    display: block;
+    @include media-breakpoint-up(lg) { 
+            display: none;
+     }   
+ }
+
+ .hide-small {
+   visibility: visible;
+    @include media-breakpoint-down(md) { 
+        visibility: hidden;
+    } 
+ }
+    // Animations
+
+    @keyframes blob-spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+// Aspect Ratio Mixin
+    @mixin aspect-ratio($width, $height) {
+      background-size: cover;
+      background-repeat: no-repeat;
+    position: relative;
+      &:before {
+        display: block!important;
+        content: ""!important;
+        width: 100%!important;
+        padding-top: ($height / $width) * 100%!important;
+        
+      }
+      > .content {
+        position: absolute!important;
+        top: 0!important;
+        left: 0!important;
+        right: 0!important;
+        bottom: 0!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: top;
+      }
+    }
+    
+    
+    .header-content-ratio {
+        @include aspect-ratio(10, 3);
+        @include media-breakpoint-down(md) { 
+            @include aspect-ratio(10, 4);
+        }
+         @include media-breakpoint-down(sm) { 
+            @include aspect-ratio(10, 7);
+        }
+        h1 {
+            margin-top: 8%;
+        }
+
+    }
+
+    .sip-home {
+        .header-content-ratio {
+            @include aspect-ratio(16, 8);
+            @include media-breakpoint-down(md) { 
+                @include aspect-ratio(10, 7);
+            }
+            @include media-breakpoint-down(sm) { 
+                @include aspect-ratio(10, 8);
+            }
+        }
+        .slick {
+            .sixteen-ten {
+               @include media-breakpoint-down(md) { 
+                    @include aspect-ratio(10, 7);
+                }
+                @include media-breakpoint-down(sm) { 
+                    @include aspect-ratio(10, 8);
+                }
+            }
+        }
+    }
+
+
+    .sixteen-ten {
+        @include aspect-ratio(16, 8);
+        @include media-breakpoint-up(sm) { 
+            // padding: 20px;
+        }
+    }
+       
+    .one-one {
+        @include aspect-ratio(1, 1);
+
+    }
+    .chart-ratio {
+      @include aspect-ratio(1, .5);
+
+    }
+
+    .event-ratio {
+        flex-basis: 15%;
+        @include aspect-ratio(1, .9);
+        @include media-breakpoint-down(sm) { 
+            flex-basis: 100%;
+            @include aspect-ratio(1, .15);
+        }
+    }
+
+
+    @mixin fluid-type($font-min, $font-max, $screen-min, $screen-max) {
+        font-size: #{$font-min}px;
+      
+        @media only screen and (min-width: #{$screen-min}px) {
+          font-size: calc(
+            #{$font-min}px + #{($font-max - $font-min)} * (100vw - #{$screen-min}px) / (#{$screen-max} - #{$screen-min})
+          )!important;
+        }
+      
+        @media only screen and (min-width: #{$screen-max}px) {
+          font-size: #{$font-max}px!important;
+        }
+      }
+      
+    //   .my-text {
+    //     @include fluid-type(32, 60, 480, 1500);
+    //   }

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<styles>
+	polygon::hover path {
+		fill: purple!important;
+	}
+</styles>
+</defs>
+    <g>
+        <polygon points="73.2 50 53.5 30.3 51 32.8 66.3 48.2 29.8 48.2 29.8 51.8 66.3 51.8 51 67.2 53.5 69.7 73.2 50" style="fill: #1eb7e0"/>
+        <path d="M12.7,50.1A37.55,37.55,0,1,1,50.2,87.6,37.62,37.62,0,0,1,12.7,50.1Zm71.5,0a34,34,0,1,0-34,34A34.1,34.1,0,0,0,84.2,50.1Z" style="fill: #1eb7e0"/>
+    </g>
+</svg>

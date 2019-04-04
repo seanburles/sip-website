@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>mail-icon</title>
+  <circle cx="256" cy="259" r="239" style="fill: #1eb7e0"/>
+  <g>
+    <path d="M378,371.61a8.63,8.63,0,0,1-8.61,8.6H145.61a8.63,8.63,0,0,1-8.61-8.6v-142h8.61L253.2,298.45h8.6l108.84-68.62,7.36-.24Z" style="fill: #eab64e"/>
+    <polygon points="253.2 122 137 229.59 257.5 307.05 378 229.59 261.8 122 253.2 122" style="fill: #eab64e"/>
+    <g>
+      <circle cx="365.09" cy="165.04" r="12.91" style="fill: #d3d7d9"/>
+      <rect x="352.18" y="165.04" width="12.91" height="12.91" style="fill: #d3d7d9"/>
+      <path d="M180,152.12a17.22,17.22,0,0,0-17.22,17.22V315.66H352.18V165a13,13,0,0,1,12.91-12.92Z" style="fill: #ebf0f2"/>
+      <rect x="188.64" y="229.59" width="137.71" height="8.61" style="fill: #828586"/>
+      <rect x="188.64" y="212.38" width="137.71" height="8.61" style="fill: #828586"/>
+      <rect x="266.11" y="186.55" width="60.25" height="8.61" style="fill: #828586"/>
+      <rect x="188.64" y="246.8" width="137.71" height="8.61" style="fill: #828586"/>
+      <rect x="188.64" y="264.02" width="137.71" height="8.61" style="fill: #828586"/>
+      <rect x="188.64" y="281.23" width="137.71" height="8.61" style="fill: #828586"/>
+    </g>
+    <path d="M378,354.39a8.63,8.63,0,0,1-8.61,8.61H145.61a8.63,8.63,0,0,1-8.61-8.61V229.59h8.61L253.2,298.45h8.6l108.84-68.62,7.36-.24Z" style="fill: #ffcb58"/>
+  </g>
+</svg>
